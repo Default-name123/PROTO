@@ -481,60 +481,245 @@ class Controls extends FlxActionSet
 	inline function get_RESET()
 		return _reset.check();
 	
-	public var S0(get, never):Bool; inline function get_S0() {return _s0.check();}
-	public var S1(get, never):Bool; inline function get_S1() {return _s1.check();}
-	public var S2(get, never):Bool; inline function get_S2() {return _s2.check();}
-	public var S3(get, never):Bool; inline function get_S3() {return _s3.check();}
-	public var S4(get, never):Bool; inline function get_S4() {return _s4.check();}
-	public var S5(get, never):Bool; inline function get_S5() {return _s5.check();}
-	public var S6(get, never):Bool; inline function get_S6() {return _s6.check();}
+	public var S0(get, never):Bool;
+	
+	inline function get_S0() 
+	        return _s0.check();
+	
+	public var S1(get, never):Bool;
+	
+	inline function get_S1()
+	        return _s1.check();
+	
+	public var S2(get, never):Bool;
+	
+	inline function get_S2()
+	        return _s2.check();
+	
+	public var S3(get, never):Bool;
+	
+	inline function get_S3()
+		return _s3.check();
+	
+	public var S4(get, never):Bool;
+	
+	inline function get_S4() 
+	        return _s4.check();
+	
+	public var S5(get, never):Bool;
+	
+	inline function get_S5() 
+	        return _s5.check();
+	
+	public var S6(get, never):Bool;
+	
+	inline function get_S6() 
+		return _s6.check();
 
-	public var S0_P(get, never):Bool; inline function get_S0_P() {return _s0P.check();}
-	public var S1_P(get, never):Bool; inline function get_S1_P() {return _s1P.check();}
-	public var S2_P(get, never):Bool; inline function get_S2_P() {return _s2P.check();}
-	public var S3_P(get, never):Bool; inline function get_S3_P() {return _s3P.check();}
-	public var S4_P(get, never):Bool; inline function get_S4_P() {return _s4P.check();}
-	public var S5_P(get, never):Bool; inline function get_S5_P() {return _s5P.check();}
-	public var S6_P(get, never):Bool; inline function get_S6_P() {return _s6P.check();}
+	public var S0_P(get, never):Bool;
+	
+	inline function get_S0_P() 
+		return _s0P.check();
+	
+	public var S1_P(get, never):Bool;
+	
+	inline function get_S1_P() 
+		return _s1P.check();
+	
+	public var S2_P(get, never):Bool;
+	
+	inline function get_S2_P()
+		return _s2P.check();
+	
+	public var S3_P(get, never):Bool;
+	
+	inline function get_S3_P() 
+		return _s3P.check();
+	
+	public var S4_P(get, never):Bool;
+	
+	inline function get_S4_P()
+		return _s4P.check();
+	
+	public var S5_P(get, never):Bool;
+	
+	inline function get_S5_P() 
+		return _s5P.check();
+	
+	public var S6_P(get, never):Bool;
+	
+	inline function get_S6_P()
+	        return _s6P.check();
 
-	public var S0_R(get, never):Bool; inline function get_S0_R() {return _s0R.check();}
-	public var S1_R(get, never):Bool; inline function get_S1_R() {return _s1R.check();}
-	public var S2_R(get, never):Bool; inline function get_S2_R() {return _s2R.check();}
-	public var S3_R(get, never):Bool; inline function get_S3_R() {return _s3R.check();}
-	public var S4_R(get, never):Bool; inline function get_S4_R() {return _s4R.check();}
-	public var S5_R(get, never):Bool; inline function get_S5_R() {return _s5R.check();}
-	public var S6_R(get, never):Bool; inline function get_S6_R() {return _s6R.check();}
+	public var S0_R(get, never):Bool;
+	
+	inline function get_S0_R()
+		return _s0R.check();
+	
+	public var S1_R(get, never):Bool;
+	
+	inline function get_S1_R() 
+		return _s1R.check();
+	
+	public var S2_R(get, never):Bool;
+	
+	inline function get_S2_R()
+		return _s2R.check();
+	
+	public var S3_R(get, never):Bool;
+	
+	inline function get_S3_R() 
+		return _s3R.check();
+	
+	public var S4_R(get, never):Bool;
+	
+	inline function get_S4_R()
+		return _s4R.check();
+	
+	public var S5_R(get, never):Bool;
+	
+	inline function get_S5_R()
+		return _s5R.check();
+	
+	public var S6_R(get, never):Bool;
+	
+	inline function get_S6_R()
+		return _s6R.check();
 	
 	
-	public var N0(get, never):Bool; inline function get_N0() {return _n0.check();}
-	public var N1(get, never):Bool; inline function get_N1() {return _n1.check();}
-	public var N2(get, never):Bool; inline function get_N2() {return _n2.check();}
-	public var N3(get, never):Bool; inline function get_N3() {return _n3.check();}
-	public var N4(get, never):Bool; inline function get_N4() {return _n4.check();}
-	public var N5(get, never):Bool; inline function get_N5() {return _n5.check();}
-	public var N6(get, never):Bool; inline function get_N6() {return _n6.check();}
-	public var N7(get, never):Bool; inline function get_N7() {return _n7.check();}
-	public var N8(get, never):Bool; inline function get_N8() {return _n8.check();}
+	public var N0(get, never):Bool;
+	
+	inline function get_N0()
+		return _n0.check();
+	
+	public var N1(get, never):Bool;
+	
+	inline function get_N1()
+		return _n1.check();
+	
+	public var N2(get, never):Bool;
+	
+	inline function get_N2()
+		return _n2.check();
+	
+	public var N3(get, never):Bool;
+	
+	inline function get_N3()
+		return _n3.check();
+	
+	public var N4(get, never):Bool;
+	
+	inline function get_N4()
+		return _n4.check();
+	
+	public var N5(get, never):Bool;
+	
+	inline function get_N5()
+		return _n5.check();
+	
+	public var N6(get, never):Bool;
+	
+	inline function get_N6()
+		return _n6.check();
+	
+	public var N7(get, never):Bool;
+	
+	inline function get_N7()
+		return _n7.check();
+	
+	public var N8(get, never):Bool;
+	
+	inline function get_N8() 
+		return _n8.check();
 
-	public var N0_P(get, never):Bool; inline function get_N0_P() {return _n0P.check();}
-	public var N1_P(get, never):Bool; inline function get_N1_P() {return _n1P.check();}
-	public var N2_P(get, never):Bool; inline function get_N2_P() {return _n2P.check();}
-	public var N3_P(get, never):Bool; inline function get_N3_P() {return _n3P.check();}
-	public var N4_P(get, never):Bool; inline function get_N4_P() {return _n4P.check();}
-	public var N5_P(get, never):Bool; inline function get_N5_P() {return _n5P.check();}
-	public var N6_P(get, never):Bool; inline function get_N6_P() {return _n6P.check();}
-	public var N7_P(get, never):Bool; inline function get_N7_P() {return _n7P.check();}
-	public var N8_P(get, never):Bool; inline function get_N8_P() {return _n8P.check();}
+	public var N0_P(get, never):Bool;
+	
+	inline function get_N0_P() 
+		return _n0P.check();
+	
+	public var N1_P(get, never):Bool;
+	
+	inline function get_N1_P()
+		return _n1P.check();
+	
+	public var N2_P(get, never):Bool;
+	
+	inline function get_N2_P()
+		return _n2P.check();
+	
+	public var N3_P(get, never):Bool;
+	
+	inline function get_N3_P()
+		return _n3P.check();
+	
+	public var N4_P(get, never):Bool;
+	
+	inline function get_N4_P()
+	        return _n4P.check();
+	
+	public var N5_P(get, never):Bool;
+	
+	inline function get_N5_P()
+		return _n5P.check();
+	
+	public var N6_P(get, never):Bool;
+	
+	inline function get_N6_P()
+		return _n6P.check();
+	
+	public var N7_P(get, never):Bool;
+	
+	inline function get_N7_P() 
+	        return _n7P.check();
+	
+	public var N8_P(get, never):Bool;
+	inline function get_N8_P()
+		return _n8P.check();
 
-	public var N0_R(get, never):Bool; inline function get_N0_R() {return _n0R.check();}
-	public var N1_R(get, never):Bool; inline function get_N1_R() {return _n1R.check();}
-	public var N2_R(get, never):Bool; inline function get_N2_R() {return _n2R.check();}
-	public var N3_R(get, never):Bool; inline function get_N3_R() {return _n3R.check();}
-	public var N4_R(get, never):Bool; inline function get_N4_R() {return _n4R.check();}
-	public var N5_R(get, never):Bool; inline function get_N5_R() {return _n5R.check();}
-	public var N6_R(get, never):Bool; inline function get_N6_R() {return _n6R.check();}
-	public var N7_R(get, never):Bool; inline function get_N7_R() {return _n7R.check();}
-	public var N8_R(get, never):Bool; inline function get_N8_R() {return _n8R.check();}
+	public var N0_R(get, never):Bool;
+	
+	inline function get_N0_R()
+	        return _n0R.check();
+	
+	public var N1_R(get, never):Bool;
+	
+	inline function get_N1_R()
+		return _n1R.check();
+	
+	public var N2_R(get, never):Bool;
+	
+	inline function get_N2_R()
+		return _n2R.check();
+	
+	public var N3_R(get, never):Bool;
+	
+	inline function get_N3_R()
+		return _n3R.check();
+	
+	public var N4_R(get, never):Bool;
+	
+	inline function get_N4_R()
+		return _n4R.check();
+	
+	public var N5_R(get, never):Bool;
+	
+	inline function get_N5_R()
+		return _n5R.check();
+	
+	public var N6_R(get, never):Bool;
+	
+	inline function get_N6_R() 
+		return _n6R.check();
+	
+	public var N7_R(get, never):Bool;
+	
+	inline function get_N7_R()
+		return _n7R.check();
+	
+	public var N8_R(get, never):Bool;
+	
+	inline function get_N8_R()
+		return _n8R.check();
 
 	#if (haxe >= "4.0.0")
 	public function new(name, scheme = None)
@@ -747,59 +932,59 @@ class Controls extends FlxActionSet
         
 	switch(Type){
 	case ONE:
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
 	case TWO:
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
 	case THREE:
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));					
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));					
 	case FIVE:
-		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
-		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
+		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
+		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
 	case SIX:
-		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
-		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
-		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));									
+		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
+		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
+		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));									
 	case SEVEN:	
-		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.S3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
-		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
-		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
-		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
+		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.S3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
+		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
+		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
+		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
 	case EIGHT:
-		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
-		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
-		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
-		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
-		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, _hitbox.k8, state));					
+		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
+		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
+		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
+		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
+		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, hitbox.k8, state));					
 	case NINE:
-		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
-		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
-		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
-		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, _hitbox.k8, state));
-		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, _hitbox.k9, state));											
+		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
+		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
+		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
+		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, hitbox.k8, state));
+		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, hitbox.k9, state));											
 	case DEFAULT:	
-		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
-		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));	
+		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
+		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));	
 	}
 	}
 	
