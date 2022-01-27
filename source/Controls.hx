@@ -747,59 +747,59 @@ class Controls extends FlxActionSet
         
 	switch(Type){
 	case ONE:
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
 	case TWO:
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
 	case THREE:
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));					
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));					
 	case FIVE:
-		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
-		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
+		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
+		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
 	case SIX:
-		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
-		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
-		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));									
+		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
+		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
+		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));									
 	case SEVEN:	
-		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.S3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
-		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
-		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
-		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
+		inline forEachBound(Control.S0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.S1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.S2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.S3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
+		inline forEachBound(Control.S4, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
+		inline forEachBound(Control.S5, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
+		inline forEachBound(Control.S6, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
 	case EIGHT:
-		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
-		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
-		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
-		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
-		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, hitbox.k8, state));					
+		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
+		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
+		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
+		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
+		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, _hitbox.k8, state));					
 	case NINE:
-		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));
-		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, hitbox.k5, state));
-		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, hitbox.k6, state));
-		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, hitbox.k7, state));
-		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, hitbox.k8, state));
-		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, hitbox.k9, state));											
+		inline forEachBound(Control.N0, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.N1, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.N2, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.N3, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));
+		inline forEachBound(Control.N4, (action, state) -> addbuttonuNOTES(action, _hitbox.k5, state));
+		inline forEachBound(Control.N5, (action, state) -> addbuttonuNOTES(action, _hitbox.k6, state));
+		inline forEachBound(Control.N6, (action, state) -> addbuttonuNOTES(action, _hitbox.k7, state));
+		inline forEachBound(Control.N7, (action, state) -> addbuttonuNOTES(action, _hitbox.k8, state));
+		inline forEachBound(Control.N8, (action, state) -> addbuttonuNOTES(action, _hitbox.k9, state));											
 	case DEFAULT:	
-		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, hitbox.k3, state));
-		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, hitbox.k2, state));
-		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, hitbox.k1, state));
-		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, hitbox.k4, state));	
+		inline forEachBound(Control.NOTE_UP, (action, state) -> addbuttonuNOTES(action, _hitbox.k3, state));
+		inline forEachBound(Control.NOTE_DOWN, (action, state) -> addbuttonuNOTES(action, _hitbox.k2, state));
+		inline forEachBound(Control.NOTE_LEFT, (action, state) -> addbuttonuNOTES(action, _hitbox.k1, state));
+		inline forEachBound(Control.NOTE_RIGHT, (action, state) -> addbuttonuNOTES(action, _hitbox.k4, state));	
 	}
 	}
 	
