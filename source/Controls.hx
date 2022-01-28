@@ -922,7 +922,8 @@ class Controls extends FlxActionSet
 		var input = new FlxActionInputDigitalIFlxInput(button, state);
 		trackedinputsNOTES.push(input);
 		
-		action.add(input);
+		//action.add(input);
+		action.addInput(button, state);
 	}
 	
 	public function setHitBoxNOTES(hitbox:Hitbox, ?Type:HitboxType) 
